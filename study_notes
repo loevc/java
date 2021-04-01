@@ -1,0 +1,24 @@
+产生的第一个问题居然是我在群里问了装哪个jre版本
+	应该是jdk才对.我需要是编写java程序而不仅仅是用来运行
+	前者是运行时库,后者是开发者工具包(包含jre,以及所需要的javac)
+
+第二个问题:
+	是安装openjdk还是oracle jdk?
+	现选择是openjdk
+	sudo apt-get install openjdk-8-jdk
+	......
+	还要自己查找安装路径
+	which java
+	ls -lrt /usr/bin/java
+	ls -lrt /etc/alternatives/java
+	/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+	sudo update-alternatives --config java
+第三个问题:
+	环境变量的配置environment还是.bashrc?
+	即通过本账户运行,决定先为该用户配置.bashrc而不是environment
+	JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
+	echo $JAVA_HOME
+IDEA的安装:
+	应该是需要提供一个快捷方式的用以打开或者软链接
+
+
