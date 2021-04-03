@@ -38,3 +38,22 @@ Error: Could not find or load main class helloWorld.java
 		负数:	= 反码 + 1 ( 运算 )	
 
 
+java中的数据类型共有8种  
+	6个数字型:byte(8) short(16) int(32) long(64) float(32) double(64) 
+	1个布尔型:bool 
+	1个字符型:char 16
+
+第6题说的不是怎么改写语句的错误 而是仅仅怎么让该语句通过....
+	至于结果为什么是44 : 强制类型转换直接截取所需的位数(由后至前)
+	结果负数 例如 421
+
+运用位运算取绝对值:
+	正数 a = a 
+	负数 a = ~a + 1 (补码转换至原码是 去符号位 取反+1)
+		若是直接 取反+1 既是绝对值
+
+	http://graphics.stanford.edu/~seander/bithacks.html#SwappingValuesSubAdd
+	>> 和 >>> 的区别
+	但是还是需要判断条件 : 找到 0 -1 的亦或特性
+	正数 a = a^(0) - 0 
+	负数 a = a^(-1) - (-1) 
