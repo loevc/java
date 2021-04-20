@@ -55,7 +55,8 @@
 
 #### 16 [打印三角形图案]
   题目: 打印出如下图案(三角形)  
-    &nbsp;&nbsp;&nbsp;&nbsp;*  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\*  
     
 &nbsp;&nbsp;&nbsp;   \***  
    
