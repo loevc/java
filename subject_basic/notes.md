@@ -436,6 +436,6 @@ public static void countSort(int[] a, int max, int min) {
 
 
 ### 7. 了解算法时间复杂度的概念. 了解每种排序算法的时间复杂度.
-................ 插入图片  
+![排序算法时间复杂度](https://github.com/loevc/java/blob/master/img/time_complicate.png)  
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
